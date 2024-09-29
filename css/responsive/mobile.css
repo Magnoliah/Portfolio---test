@@ -1,0 +1,222 @@
+@media screen and (max-width: 767px) {
+
+    /*--------------------HEADER--------------------*/
+
+    header {
+        background-image: url("/images/home10.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 250px;
+        padding-bottom: 250px;
+        margin: 0 auto;
+    }
+    
+    h1 {
+        font-size: 65px;
+    }
+
+    nav {
+        position: absolute;
+        top: 150px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 15px;
+        text-align: center;
+    }
+
+    ol {
+        display: flex;
+        justify-content: center;
+    }
+
+    li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    a {
+        position: relative;
+        transition: all 0.5s ease;
+        border-width: 1px;
+        border-radius: 30px;
+    }
+
+    /*--------------------GLOBAL h3--------------------*/
+
+    h3 {
+        margin-top: 10px;
+        font-size: 20px;
+        font-family: "Nanum Myeongjo", serif;
+        font-weight: 900;
+        font-style: normal;
+        padding-bottom: 5px;
+        width: 100%;
+        margin-right: 15px;
+    }
+
+    /*--------------------01--------------------*/
+
+    main {
+        margin: 0 auto;
+    }
+    
+    .main-div-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #d8e4eb;
+        border-top: solid black 1px;
+        width: 100%;
+        margin: 0;
+    }
+    
+    .main-div-1 h3 {
+        text-align: right;
+    }
+    .main-div-1 p {
+        text-align: justify;
+        padding: 0 10px;
+        width: 100%;
+        margin: 20px;
+        flex: 1;
+        font-family: "Manrope", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        color: black;
+        font-size: 12px;;
+    }
+
+    .main-div-p {
+        display: flex;
+    }
+
+    /*--------------------02--------------------*/
+
+    .main-div-2 {
+        padding: 40px 20px;
+        background-image: url("/images/main7.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        color: #004080;
+        border-top: 5px solid #80b3ff;
+        border-bottom: 5px solid #80b3ff;
+    }
+
+    .main-div-2 h3 {
+        text-align: center;
+        background-color: rgba(128, 179, 255, 0.5);
+    }
+
+
+    .experience-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .experience-item {
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.8);
+        box-shadow: 0 4px 10px rgba(0, 102, 204, 0.3);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .experience-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 15px rgba(0, 102, 204, 0.4);
+    }
+
+    .experience-content h4 {
+        font-family: 'Manrope', sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        color: #004080;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+    }
+
+    .experience-content p {
+        font-family: 'Manrope', sans-serif;
+        font-size: 14px;
+        line-height: 1.6;
+        color: #333;
+    }
+
+    /*--------------------03--------------------*/
+
+    section.main-div-3 {
+        font-family: "Manrope", sans-serif;
+        padding: 40px;
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: #e6f2ff;
+        box-shadow: 0px 4px 8px rgba(0, 51, 102, 0.1);
+    }
+
+    .main-div-3 h3 {
+        text-align: center;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    label {
+        font-size: 14px;
+        font-weight: bold;
+        color: #004080;
+        margin-bottom: 10px;
+    }
+    
+    input[type="text"], 
+    input[type="email"], 
+    textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #b3d1ff;
+        background-color: #f0f8ff;
+        font-size: 14px;
+        color: #003366;
+    }
+    
+    input[type="text"]::placeholder, 
+    input[type="email"]::placeholder, 
+    textarea::placeholder {
+        color: #6699cc;
+    }
+    
+    textarea {
+        height: 150px;
+        resize: none;
+    }
+    
+    button {
+        padding: 16px 5px;
+        border-radius: 100%;
+        border: solid 0.3px #004080;
+        background-color: #e6f2ff;
+        cursor: pointer;
+        font-size: 16px;
+        color: #004080;
+        font-family: "Petit Formal Script", cursive;
+    }
+    
+    button:hover {
+        background-color: #003366;
+    }
+    
+    article {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
