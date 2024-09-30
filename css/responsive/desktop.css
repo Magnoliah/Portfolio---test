@@ -23,7 +23,7 @@
     }
 
     header {
-        background-image: url("images/home10.jpg");
+        background-image: url("./images/home10.jpg");
         background-size: contain;
         background-position: center;
         min-width: 100vw;
@@ -108,7 +108,7 @@
 
     .main-div-2 {
         padding: 60px 40px;
-        background-image: url("images/main52.jpg");
+        background-image: url("./images/main52.jpg");
         background-size: contain;
         background-position: center;
         width: 100vw;
